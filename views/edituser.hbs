@@ -1,0 +1,21 @@
+
+<h3>Edit Student</h3>
+
+<form action="/edituser/{{id}}" method="POST">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{this.NAME}}">
+    </div>
+    <div>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" value="{{this.age}}">
+    </div>
+    <div>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" value="{{this.city}}">
+    </div>
+    <div class="form-group">
+        <button type="submit">Save details</button>
+        <a href="/">View all</a>
+    </div>
+</form>

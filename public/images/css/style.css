@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: cadetblue;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    height: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    color: tomato;
+    padding: 10px;
+    border-bottom: 1px solid #afafaf;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    /* border: 1px solid #afafaf; */
+    padding: 5px;
+    text-align: left;
+}
+
+table thead th {
+   background-color: lightslategray;
+   color:white;
+   font-weight: bold;
+}
+
+table tbody td{
+    padding:5px;
+}
+
+.edit,.delete,.addbtn{
+    text-decoration:none;
+    color:white;
+    display:block;
+    /* width:35px; */
+    padding:3px;
+    text-align:center;
+    border-radius: 3px;
+    background-color: blueviolet;
+
+}
+.delete{
+    background-color: blueviolet;
+
+}
+.p {
+    text-align: center;
+    padding: 5px;
+    margin-right: 20px; /* Adjust the margin to move it further to the right */
+}.form-group{
+    /* background:red; */
+    margin-top:10px;
+    padding:5px;
+}
+.form-group label,.form-group input{
+    display: block;
+}
+
+/* If using the first solution */
+/* .button {
+    color: white;
+    display: block;
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: blueviolet;
+} */
+
+/* If using the second solution */
+.form-group button {
+    color: white;
+    display: block;
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: blueviolet;
+}
